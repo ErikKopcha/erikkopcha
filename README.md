@@ -1,16 +1,26 @@
 ### Hi there 👋
 
-<!--
-**ErikKopcha/erikkopcha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔭 I’m currently working on RedMonkey.tech
 
-Here are some ideas to get you started:
+💬 A Frontend developer, who loves, when things are on fire.
+I will implement business ideas.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I’m passionate about my work, I try to be always up to date with the latest news and beeing in constant professional development.
+
+⚡ Tech skills:
+• Angular, TypeScript
+• React, Vue - (basic)
+• JavaScript (ES5, ES6+)
+• Firebase, Postman
+• Webpack / Gulp
+• HTML5 / CSS3
+• BEM Methodology
+• Responsive Web Design
+• Sass(SCSS) / Less
+• Flexbox / Grid / Bootstrap
+• Git / SVN - version control system
+• npm / yarn - package manager
+• Zeplin / Avocode
+• Photoshop / Figma
+
+My CV - https://ekopcha.netlify.app/CV/CV.pdf
