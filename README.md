@@ -1,8 +1,5 @@
 ### Hi there 👋
 
-![My GitHub stats](https://github-readme-stats.vercel.app/api?username=erikkopcha&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&count=8)
-
 🔭 I’m currently working on RedMonkey.tech
 
 💬 A Frontend developer, who loves, when things are on fire.
@@ -27,3 +24,5 @@ I’m passionate about my work, I try to be always up to date with the latest ne
 • Photoshop / Figma <br>
 
 My CV - https://ekopcha.netlify.app/CV/CV.pdf
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact)
