@@ -1,7 +1,9 @@
 ### Hi there 👋
 
-[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=erikkopcha)](https://github.com/anuraghazra/github-readme-stats)
-
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=erikkopcha)
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=erikkopcha&count_private=true)
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=erikkopcha&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&langs_count=8)
 
 🔭 I’m currently working on RedMonkey.tech
 
