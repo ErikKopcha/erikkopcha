@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=erikkopcha)](https://github.com/anuraghazra/github-readme-stats)
+
+
 🔭 I’m currently working on RedMonkey.tech
 
 💬 A Frontend developer, who loves, when things are on fire.
