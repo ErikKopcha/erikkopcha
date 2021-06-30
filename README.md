@@ -11,3 +11,5 @@ I’m passionate about my work, I try to be always up to date with the latest ne
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact)
 
 My CV - https://ekopcha.netlify.app/CV/CV.pdf
+
+<!-- https://github.com/anuraghazra/github-readme-stats -->
