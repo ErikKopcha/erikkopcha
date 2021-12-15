@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-🔭&nbsp; &nbsp;I’m currently working on RedMonkey.tech
-
 💬&nbsp; &nbsp;A Frontend developer, who loves, when things are on fire. <br />
 
 I will implement business ideas. <br />
