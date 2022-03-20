@@ -10,6 +10,8 @@
   I’m passionate about my work, I try to be always up to date with the latest news and beeing in constant professional development. <br />
 </p>
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact)
+
 <div id="badges">
   <a href="https://www.linkedin.com/in/erikkopcha/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -46,7 +48,5 @@
 ---
 
 ### :fire: My Stats :
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact)
-<br/>
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark&background=000000)](https://git.io/streak-stats)
 
