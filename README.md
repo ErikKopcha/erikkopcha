@@ -5,7 +5,7 @@
 --- -->
 
 <p>
-  I'm a Frontend Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> <br />
+  I'm a Frontend Engineer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> <br />
   Who loves, when things are on fire. <br />
   I’m passionate about my work, I try to be always up to date with the latest news and beeing in constant professional development. <br />
 </p>
