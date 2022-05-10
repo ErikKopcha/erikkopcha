@@ -4,8 +4,6 @@
 
 --- -->
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/yVUwmr64Ldc3MfSu0I" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/cyberpunk-banner-zafercyber-yVUwmr64Ldc3MfSu0I">via GIPHY</a></p>
-
 <p>
   I'm a Frontend Engineer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> <br />
   Who loves, when things are on fire. <br />
