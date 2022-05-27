@@ -1,16 +1,6 @@
-<!-- <div align="center">
+<div align="center">
     <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
-
---- -->
-
-<p>
-  I'm a Frontend Engineer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> <br />
-  Who loves, when things are on fire. <br />
-  I’m passionate about my work, I try to be always up to date with the latest news and beeing in constant professional development. <br />
-</p>
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact)
 
 <div id="badges">
   <a href="https://www.linkedin.com/in/erikkopcha/">
@@ -49,3 +39,6 @@
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark&background=000000)](https://git.io/streak-stats)
 
+---
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact)
