@@ -32,9 +32,9 @@
 
 ---
 
-### :fire: My Stats 📈
+### :fire: My Stats
 
 <div align="center">
-  [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark&)](https://git.io/streak-stats)
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact&theme=dark)
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark&" />
+  <img src="[http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark&](https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact&theme=dark)" />
 </div>
