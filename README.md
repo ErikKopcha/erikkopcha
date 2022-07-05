@@ -32,18 +32,18 @@
 
 ---
 
-### 🏆 GitHub trophy
-
-![](https://github-profile-trophy.vercel.app/?username=erikkopcha&theme=onedark&rank=S,SS,SSS,A,AA,AAA,SECRET,B,BB,BBB)
-
----
-
 ### :fire: My Stats
 
 <div align="start">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact&theme=dark" />
 </div>
+
+---
+
+### 🏆 GitHub trophy
+
+![](https://github-profile-trophy.vercel.app/?username=erikkopcha&theme=onedark&rank=S,SS,SSS,A,AA,AAA,SECRET,B,BB,BBB)
 
 ---
 
