@@ -6,6 +6,16 @@
 
 ---
 
+## 🏆 **GITHUB TROPHY**
+
+![](https://github-profile-trophy.vercel.app/?username=erikkopcha&theme=onedark&rank=S,SS,SSS,A,AA,AAA,SECRET,B,BB,BBB)
+
+---
+
+<a href="http://www.github.com/erikkopcha"><img src="https://activity-graph.herokuapp.com/graph?username=erikkopcha&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+
+---
+
 ### :hammer_and_wrench: Languages and Tools :
 <div>
   <img width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />&nbsp;
