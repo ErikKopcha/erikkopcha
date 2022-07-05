@@ -6,12 +6,6 @@
 
 ---
 
-## 🏆 **GITHUB TROPHY**
-
-![](https://github-profile-trophy.vercel.app/?username=erikkopcha&theme=onedark&rank=S,SS,SSS,A,AA,AAA,SECRET,B,BB,BBB)
-
----
-
 ### :hammer_and_wrench: Languages and Tools :
 <div>
   <img width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />&nbsp;
@@ -35,6 +29,12 @@
   <img width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />&nbsp;
   <img width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />&nbsp;
 </div>
+
+---
+
+### 🏆 GitHub trophy
+
+![](https://github-profile-trophy.vercel.app/?username=erikkopcha&theme=onedark&rank=S,SS,SSS,A,AA,AAA,SECRET,B,BB,BBB)
 
 ---
 
