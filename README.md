@@ -28,9 +28,7 @@
 
 ---
 
-### :fire: My Stats
-
 <div align="start">
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark" />
+  <!-- ### :fire: My Stats <img src="http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark" /> -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact&theme=dark" />
 </div>
