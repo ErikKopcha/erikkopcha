@@ -2,16 +2,12 @@
 
 I'm a **Software Engineer** passionate about solving complex challenges and driving innovation through **Web and Mobile** technologies. Backed by a **Master's in Software Engineering & Artificial Intelligence** and **6+ years of production experience**, I transform business concepts into elegant, scalable systems where security, performance, and user experience converge.
 
----
-
 ## 💡 Core Expertise
 
 - **Web & Mobile Development:** Creating seamless cross-platform experiences.
 - **Blockchain & Cryptography:** Secure implementation of HD Wallets, cryptographic libraries, transaction signing, and key management.
 - **Architecture & SDKs:** Designing scalable, modular architectures and offline-first solutions.
 - **Performance Optimization:** Tuning high-load systems for maximum efficiency.
-
----
 
 ## 🛠 Technical Stack
 
