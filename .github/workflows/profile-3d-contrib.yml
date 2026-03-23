@@ -1,29 +1,38 @@
-name: 3D Contribution Chart
+name: Generate Profile SVG
 
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"  # 03:00 UTC = 03:00 Atlantic/Madeira (UTC+0 / UTC+1 summer)
   workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - "scripts/generate-svg.js"
+      - ".github/workflows/profile-3d-contrib.yml"
 
 jobs:
   build:
+    name: Generate SVG
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: erikkopcha
-          SETTING_JSON: conf/github-profile-3d-contrib.json
+          GITHUB_USERNAME: erikkopcha
+        run: node scripts/generate-svg.js
 
-      - name: Push SVGs to output-3d-contrib branch
+      - name: Push to output-3d-contrib branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output-3d-contrib
