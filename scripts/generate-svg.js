@@ -20,19 +20,19 @@ const OUT_DIR  = 'profile-3d-contrib';
 const OUT_FILE = path.join(OUT_DIR, 'profile-cyan.svg');
 
 // SVG canvas
-const W = 920;
-const H = 340;
+const W = 980;
+const H = 375;
 
 // Isometric tile dimensions
-const TW = 18;  // full tile width
-const TH = 9;   // tile height (TW/2 for isometric 30°)
+const TW = 20;  // full tile width
+const TH = 10;  // tile height (TW/2 for isometric 30°)
 
 // Cube height per contribution level (0 = none → 4 = max)
-const CUBE_H = [2, 14, 28, 42, 58];
+const CUBE_H = [2, 16, 32, 50, 68];
 
 // Calendar grid origin on SVG canvas
-const CAL_X = 444;
-const CAL_Y = 72;
+const CAL_X = 390;
+const CAL_Y = 76;
 
 // ─── Color palette ────────────────────────────────────────────────────────────
 
@@ -286,9 +286,9 @@ function renderDonut(langs) {
 
   // Position: bottom-left corner, safely left of the isometric calendar
   const cx = 92;
-  const cy = 258;
-  const R  = 56;   // outer radius
-  const r  = 35;   // inner radius
+  const cy = 272;
+  const R  = 58;   // outer radius
+  const r  = 36;   // inner radius
 
   const slices = [];
   let angle    = -Math.PI / 2;  // start at 12 o'clock
