@@ -55,4 +55,4 @@ I'm a **Senior Software Engineer** passionate about solving complex challenges a
 
 ---
 
-<img src="https://raw.githubusercontent.com/erikkopcha/erikkopcha/output-3d-contrib/profile-cyan.svg" alt="3D Contribution Chart" />
+<img src="https://raw.githubusercontent.com/erikkopcha/erikkopcha/output-3d-contrib/profile-3d-contrib/profile-cyan.svg" alt="3D Contribution Chart" />
