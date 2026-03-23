@@ -55,8 +55,4 @@ I'm a **Senior Software Engineer** passionate about solving complex challenges a
 
 ---
 
-
-<div align="start">
-  <!-- ### :fire: My Stats <img src="http://github-readme-streak-stats.herokuapp.com?user=erikkopcha&theme=dark" /> -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erikkopcha&layout=compact&theme=dark" />
-</div>
+<img src="./github-metrics.svg" alt="GitHub Metrics" />
