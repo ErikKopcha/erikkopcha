@@ -20,19 +20,19 @@ const OUT_DIR  = 'profile-3d-contrib';
 const OUT_FILE = path.join(OUT_DIR, 'profile-cyan.svg');
 
 // SVG canvas
-const W = 870;
-const H = 310;
+const W = 920;
+const H = 340;
 
 // Isometric tile dimensions
-const TW = 14;  // full tile width
-const TH = 7;   // tile height (TW/2 for isometric 30°)
+const TW = 18;  // full tile width
+const TH = 9;   // tile height (TW/2 for isometric 30°)
 
 // Cube height per contribution level (0 = none → 4 = max)
-const CUBE_H = [1.5, 9, 18, 28, 40];
+const CUBE_H = [2, 14, 28, 42, 58];
 
 // Calendar grid origin on SVG canvas
-const CAL_X = 492;
-const CAL_Y = 58;
+const CAL_X = 444;
+const CAL_Y = 72;
 
 // ─── Color palette ────────────────────────────────────────────────────────────
 
@@ -234,24 +234,21 @@ function renderCube(week, day, level, weekIndex) {
   const G  = [bx,          by - TH     - h];  // back-top
   const Hv = [bx - TW / 2, by - TH / 2 - h];  // left-top
 
-  // Spring easing for contributions, simple ease-out for empty tiles
-  const dur    = level === 0 ? 300 : 380 + level * 15;
+  const delay  = weekIndex * 14;  // 14ms stagger per week column — wave effect
+  const filter = level === 4 ? ` filter="url(#glow)"` : '';
+
+  /*
+   * SVG transform-origin uses viewport coords by default (no transform-box needed).
+   * Anchoring at (bx, by) = front-bottom vertex means scaleY(0) collapses the
+   * entire cube to its base — each cube grows upward like a tree.
+   */
+  const origin = `${bx.toFixed(1)}px ${by.toFixed(1)}px`;
+  const dur    = level === 0 ? 280 : 360 + level * 20;
   const ease   = level === 0
     ? 'ease-out'
     : 'cubic-bezier(0.34, 1.56, 0.64, 1)';  // spring overshoot
-  const delay  = weekIndex * 15;             // 15ms stagger per week column
-  const filter = level === 4 ? ' filter="url(#glow)"' : '';
 
-  /*
-   * transform-box:fill-box + transform-origin:50% 100% means scaleY
-   * anchors at the bottom-center of the cube's bounding box (= front-bottom
-   * vertex A), so the cube grows upward from its base — like a tree.
-   */
-  const style = [
-    'transform-box:fill-box',
-    'transform-origin:50% 100%',
-    `animation:growUp ${dur}ms ${ease} ${delay}ms both`,
-  ].join(';');
+  const style = `transform-origin:${origin};animation:growUp ${dur}ms ${ease} ${delay}ms both`;
 
   return `<g style="${style}"${filter}>
     <polygon points="${pts([A, B, F, E])}"  fill="${RIGHT[level]}"/>
@@ -288,10 +285,10 @@ function renderDonut(langs) {
   if (!langs.length) return '<!-- no language data -->';
 
   // Position: bottom-left corner, safely left of the isometric calendar
-  const cx = 88;
-  const cy = 240;
-  const R  = 50;   // outer radius
-  const r  = 31;   // inner radius
+  const cx = 92;
+  const cy = 258;
+  const R  = 56;   // outer radius
+  const r  = 35;   // inner radius
 
   const slices = [];
   let angle    = -Math.PI / 2;  // start at 12 o'clock
@@ -321,7 +318,7 @@ function renderDonut(langs) {
   }
 
   // Legend to the right of the donut
-  const lx = cx + R + 14;
+  const lx = cx + R + 16;
   const legend = langs.map(({ name, pct, color }, i) => {
     const ly    = cy - R + i * 21 + 8;
     const delay = 900 + i * 80;
