@@ -1,6 +1,6 @@
 [![Header](https://ekopcha.vercel.app/gt-hearder.png "Header")](#)
 
-I'm a **Software Engineer** passionate about solving complex challenges and driving innovation through **Web and Mobile** technologies. Backed by a **Master's in Software Engineering & Artificial Intelligence** and **6+ years of production experience**, I transform business concepts into elegant, scalable systems where security, performance, and user experience converge.
+I'm a **Senior Software Engineer** passionate about solving complex challenges and driving innovation through **Web and Mobile** technologies. Backed by a **Master's in Software Engineering & Artificial Intelligence**, I transform business concepts into elegant, scalable systems where security, performance, and user experience converge.
 
 ## 💡 Core Expertise
 
