@@ -18,9 +18,13 @@ jobs:
   build:
     name: Generate SVG
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -32,10 +36,28 @@ jobs:
           GITHUB_USERNAME: erikkopcha
         run: node scripts/generate-svg.js
 
-      - name: Push to output-3d-contrib branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output-3d-contrib
-          build_dir: profile-3d-contrib
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push SVG to output-3d-contrib branch
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          SVG="profile-3d-contrib/profile-cyan.svg"
+
+          # Save generated file
+          TMPFILE=$(mktemp)
+          cp "$SVG" "$TMPFILE"
+
+          # Switch to (or create) output branch
+          git fetch origin output-3d-contrib 2>/dev/null \
+            && git checkout output-3d-contrib \
+            || git checkout --orphan output-3d-contrib
+
+          # Wipe everything, put only the SVG
+          git rm -rf . --quiet 2>/dev/null || true
+          mkdir -p profile-3d-contrib
+          cp "$TMPFILE" "$SVG"
+
+          git add "$SVG"
+          git diff --cached --quiet && echo "SVG unchanged, skipping commit" && exit 0
+          git commit -m "update: profile svg [skip ci]"
+          git push origin output-3d-contrib --force
