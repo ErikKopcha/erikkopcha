@@ -1,0 +1,34 @@
+[
+  {
+    "type": "normal",
+    "fileName": "profile-cyan.svg",
+    "backgroundColor": "rgba(0,0,0,0)",
+    "foregroundColor": "#00D9FF",
+    "strongColor": "#00D9FF",
+    "weakColor": "#00D9FF",
+    "radarColor": "#00D9FF",
+    "growingAnimation": true,
+    "contribColors": [
+      "#0d1117",
+      "#003a52",
+      "#005f87",
+      "#009abf",
+      "#00D9FF"
+    ],
+    "darkMode": {
+      "type": "normal",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "foregroundColor": "#00D9FF",
+      "strongColor": "#00D9FF",
+      "weakColor": "#00D9FF",
+      "radarColor": "#00D9FF",
+      "contribColors": [
+        "#0d1117",
+        "#003a52",
+        "#005f87",
+        "#009abf",
+        "#00D9FF"
+      ]
+    }
+  }
+]
